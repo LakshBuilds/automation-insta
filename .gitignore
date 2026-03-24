@@ -1,0 +1,14 @@
+node_modules
+.env
+# Google / API secrets — keep local only (never git add)
+credentials.json
+**/credentials.json
+client_secret*.json
+token.json
+
+# OS / editor noise
+.DS_Store
+*.log
+
+video.mp4
+audio.mp3
